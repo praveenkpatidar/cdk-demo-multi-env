@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../schemas/common-schema.json
+---
+App: "eks-cdk-demo"
+Project: "demo-digital"
+AWSRegion: "ap-southeast-2"

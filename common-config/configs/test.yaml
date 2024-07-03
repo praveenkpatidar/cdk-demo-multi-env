@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=../schemas/build-schema.json
+---
+AWSAccountID: "123456789013"
+Environment: "test"
+Eks:
+  EKSVersion: "1.29"
+  CoreNodeCount: 1
+Networking:
+  VPCCidr: 10.0.0.0/20
+  EKSTags: true
+  MaxAzs: 3

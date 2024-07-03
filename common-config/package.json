@@ -1,0 +1,21 @@
+{
+  "name": "config",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "npx ts-node test/test.ts"
+  },
+  "dependencies": {
+    "console": "^0.7.2",
+    "fs": "^0.0.1-security",
+    "load-yaml-file": "^1.0.0",
+    "yaml": "^2.4.2",
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.23.1"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.14.9"
+  }
+}
